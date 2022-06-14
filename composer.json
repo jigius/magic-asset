@@ -1,0 +1,28 @@
+{
+    "name": "jigius/magic-asset",
+    "description": "Data encoder/decoder for a magic asset's file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jigius",
+            "email": "jigius@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MagicAsset\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:jigius/magic-asset.git"
+        }
+    ]
+}
